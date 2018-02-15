@@ -12,16 +12,21 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script language="javascript" src="assets/js/language_switcher_c.js"></script>
 	</head>
-	<body class="homepage">
+	<body onload="make_language_apply()" class="homepage">
+						<!-- Logo -->
+							<div id="logo">
+		<div class="ru">Switch to English: </div>
+        <div class="en">Switch to Russian: </div>
+        <div class="en">Switch to Russian: </div>  
+        <button onClick="make_language_switch()"></button>
 		<div id="page-wrapper">
 
 			<!-- Header -->
 				<div id="header-wrapper" class="wrapper">
 					<div id="header">
 
-						<!-- Logo -->
-							<div id="logo">
 								<h1><a href="index.html">Our cool project</a></h1>
 								<p></p>
 							</div>
