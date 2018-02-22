@@ -170,7 +170,6 @@
                 return {
                         fswitch: function() 
                         {
-                                load_current_state();
                                 switch_language();
                                 save_current_state();
                         },

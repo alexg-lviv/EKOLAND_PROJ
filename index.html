@@ -15,32 +15,34 @@
 		<script language="javascript" src="assets/js/language_switcher_c.js"></script>
 	</head>
 	<body onload="make_language_apply()" class="homepage">
-						<!-- Logo -->
-							<div id="logo">
-		<div class="ru">Switch to English: </div>
-        <div class="en">Switch to Russian: </div>
-        <div class="en">Switch to Russian: </div>  
-        <button onClick="make_language_switch()"></button>
+<div id="logo">
+
 		<div id="page-wrapper">
 
 			<!-- Header -->
 				<div id="header-wrapper" class="wrapper">
 					<div id="header">
+						
+						
 
 								<h1><a href="index.html">Our cool project</a></h1>
-								<p></p>
+								
 							</div>
 
 						<!-- Nav -->
 							<nav id="nav">
-								<ul>
-									<li class="current"><a href="index.html">Home</a></li>
-									<li><a href="no-sidebar.html">collection</a></li>
-								</ul>
-							</nav>
 
+								<ul>
+									<div class="en"><li class="current"><a href="index.html">Home</a></li></div>
+									<div class="ru"><li class="current"><a href="index.html">Головна</a></li></div>
+									<div class="en"><li><a href="no-sidebar.html">collection</a></li></div>
+									<div class="ru"><li><a href="no-sidebar.html">колекції</a></li></div> 
+									<div class="en"><li><a href="#" onClick="make_language_switch()">змінити мову на Українську</a></li></div>
+									<div class="ru"><li><a href="#" onClick="make_language_switch()">set language to English</a></li></div>
+								</ul></nav>
+							
 					</div>
-				</div>
+
 
 			<!-- Intro -->
 				<div id="intro-wrapper" class="wrapper style1">
@@ -130,8 +132,10 @@
 						</ul>
 					</div>
 				</div>
-
+			</div>
 		</div>
+
+		
 
 		<!-- Scripts -->
 
