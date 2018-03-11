@@ -15,13 +15,17 @@
 			var	$this = $(this),
 				indent = Math.max(0, $this.parents('li').length - 1),
 				href = $this.attr('href'),
+				onclick = $this.attr('onClick'),
 				target = $this.attr('target');
+			var	clas = $this.attr('class')
+				clas = clas.replace('"', '');
 
 			b.push(
 				'<a ' +
-					'class="link depth-' + indent + '"' +
+					'class="link depth-' + indent + ' ' + clas + ' "' +
 					( (typeof target !== 'undefined' && target != '') ? ' target="' + target + '"' : '') +
 					( (typeof href !== 'undefined' && href != '') ? ' href="' + href + '"' : '') +
+					( (typeof onclick !== 'undefined' && onclick != '') ? ' onClick="' + onclick + '"' : '') +
 				'>' +
 					'<span class="indent-' + indent + '"></span>' +
 					$this.text() +

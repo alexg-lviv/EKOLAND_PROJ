@@ -47,6 +47,9 @@
                                 {
                                         document.getElementsByClassName(ch_name)[i].hidden = bl_state;
                                         document.getElementsByClassName(ch_name)[i].style.display = bl_state;
+                                        document.getElementsByClassName(ch_name)[i].hidden = "link";
+                                        document.getElementsByClassName(ch_name)[i].style.display = "link";
+                                        
                                 }
                         }
                 }
