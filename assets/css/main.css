@@ -1958,7 +1958,7 @@ a{
 					line-height: 3.25em;
 					margin-bottom: -3.25em;
 					margin-left: -12.5em;
-					padding-top: 0.5em;
+					padding-top: 0em;
 				}
 
 			#header-wrapper {
@@ -1966,18 +1966,18 @@ a{
 			}
 
 			#intro-wrapper {
-				padding-bottom: 8em;
+				padding-bottom: 5em;
 			}
 
 		/* Header */
 
 			#header {
 				position: relative;
-				padding: 12em 0;
+				padding: 10em 0;
 			}
 
 			.homepage #header {
-				padding: 18em 0;
+				padding: 10em 0;
 			}
 
 		/* Logo */
